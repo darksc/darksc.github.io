@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Mars</title>
-<link rel="shortcut icon" href="https://darksc.github.io/favicon.ico?v=1622775972049">
+<link rel="shortcut icon" href="https://darksc.github.io/favicon.ico?v=1622781580871">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://darksc.github.io/styles/main.css">
 
@@ -13,11 +13,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:500,700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:500,700&amp;display=swap">
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
-<!-- DEMO JS -->
-<script src="media/scripts/index.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+
 
 
 
@@ -104,8 +105,14 @@
             </article>
         </div>
 
+        
+            <div id="vcomments"></div>
+        
+
         <div class="site-footer">
-  Design By Mars · Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    
+        Design By <a href="https://darksc.github.io/" target="_blank">Mars</a> · Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    
 </div>
 
 <script>
@@ -113,6 +120,16 @@
 </script>
 
     </div>
+
+    
+        <script>
+          new Valine({
+            el: '#vcomments',
+            appId: 'Ye0JVSqGuzU3LaJRH0AOLwmF-gzGzoHsz',
+            appKey: 'dv4aSJkodxxMad1ElyCTkINK'
+          })
+        </script>
+    
 </div>
 </body>
 </html>
